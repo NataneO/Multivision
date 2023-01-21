@@ -1,4 +1,4 @@
- class Letter {
+class Letter {
     constructor() {
         this.users = [];
         this.posts = [];
@@ -85,5 +85,7 @@ letter.get().then(data => {
   </div>
    `).join('')
   document.getElementById("letters__list").appendChild(element);
-})
+});
 
+
+export default Letter;
