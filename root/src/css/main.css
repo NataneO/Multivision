@@ -1,0 +1,67 @@
+*,body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.letters {
+    width: 80%;
+    padding:2rem;
+    margin: 0 auto;
+}
+
+.letters__list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.letters__list__item {
+    padding: 1rem;
+    border-bottom: 1px solid black; 
+    display: flex;
+    justify-content:space-between;   
+}
+
+.letters__list__item__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.letters__writer__data{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.letters__writer__data__professional, .letters__writer__data__contact{
+    margin: 2rem;
+    font-size: 1rem;
+}
+
+
+.letters__writer__data__contact__email {
+    color: blue;
+    text-decoration: underline;
+}
+
+.letters__writer__data__contact__phone {
+    font-weight: bold;
+}
+
+.letters__writer__data__contact__website {
+    color: purple;
+}
+.letters__item__post{
+    padding: 1rem;
+    width:80%;
+    margin: 1rem auto;
+    background-color: #dbdada;
+}
+.letters__item__post__title {
+    font-size: 1.2rem;
+    color: #ca40e9;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
